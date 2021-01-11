@@ -1,6 +1,7 @@
 # Mombasa
 A Bitcoin Cash (BCH) conversion server, all prices are based in BCH and are showed as if BCH is a dollar (or EUR, MXN, etc.)
 
+![Mombasa_Alpha_logo](mombasa.png "Mombasa")
 ## How to run
 ### **Note: you must be running Mongo and the Mombasa Ambassador (in that order) before running Mombasa. 
 ### Manual without building:
