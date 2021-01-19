@@ -3,9 +3,9 @@ A Bitcoin Cash (BCH) conversion server, all prices are based in BCH and are show
 
 ![Mombasa_Alpha_logo](mombasa.png "Mombasa")
 ## How to run
-### **Note: you must be running Mongo and the Mombasa Ambassador (in that order) before running Mombasa. 
+### **Note: you must be running Mongo and the [Mombasa Ambassador](https://github.com/emilews/mombasa-ambassador) (in that order) before running Mombasa. 
 ### Manual without building:
-Clone this repo and just :
+Clone this repo and just:
 ```
 go run .
 ```
@@ -41,6 +41,9 @@ docker run -d emilews/mombasa
 ```
 ### Doc
 ### [API Documentation.](API.md)
+
+## More currencies
+Please refer to the [Mombasa Papers](https://github.com/emilews/mombasa-ambassador) readme.
 
 ## Donations
 
