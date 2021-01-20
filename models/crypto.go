@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"gopkg.in/mgo.v2/bson"
 	"log"
 	"strconv"
@@ -36,7 +37,8 @@ type CalculatedCryptoWithFiat struct {
 
 func GetCrypto(c string)Crypto {
 	result := Crypto{}
-	MongoCollection("cryptos").Find(bson.M{"ticker": c}).One(&result);
+	MongoCollection("cryptos").Find(bson.M{"ticker": c}).One(&result)
+	fmt.Println(result)
 	return result
 }
 
