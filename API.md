@@ -16,7 +16,7 @@ Returns a JSON with the requested crypto data.
 Form data:
 ```
 crypto_ticker  -> String
-crypto_ampunt  -> String
+crypto_amount  -> String
 ```
 Returns the requested crypto amount converted to BCH.
 
@@ -33,7 +33,7 @@ Returns a JSON with the requested crypto data with its price in the requested fi
 Form data:
 ```
 crypto_ticker  -> String
-crypto_ampunt  -> String
+crypto_amount  -> String
 fiat_ticker    -> String
 ```
 Returns the requested crypto amount converted to BCH and fiat.
