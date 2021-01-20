@@ -38,7 +38,7 @@ type CalculatedCryptoWithFiat struct {
 func GetCrypto(c string)Crypto {
 	result := Crypto{}
 	MongoCollection("cryptos").Find(bson.M{"ticker": c}).One(&result)
-	fmt.Println(bson.M{"ticker": c})
+	fmt.Println(c)
 	return result
 }
 
